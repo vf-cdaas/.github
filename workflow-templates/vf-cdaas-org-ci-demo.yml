@@ -1,0 +1,17 @@
+name: VF-CDAAS Organization CI
+
+on:
+  push:
+    branches: [ $default-branch ]
+  pull_request:
+    branches: [ $default-branch ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    
+    steps:
+    - uses: vf-cdaas/checkout@v2
+    
+    - name: Run a one-line script
+      run: echo Hello from VF-CDAAS Org

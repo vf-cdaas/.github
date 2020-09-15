@@ -1,0 +1,13 @@
+{
+    "name": "VF-CDAAS Organization Workflow",
+    "description": "VF-CDAAS Org CI Demo workflow template.",
+    "iconName": "box",
+    "categories": [
+        "Docker"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
